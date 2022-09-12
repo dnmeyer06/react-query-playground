@@ -1,0 +1,13 @@
+.character-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.character-grid > * {
+  align-self: center;
+}
+
+.current-page {
+  background-color: blue;
+}
